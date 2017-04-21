@@ -25,6 +25,7 @@ body{
   min-height:657px;
   
   background: url(../img/slider.jpg);
+  background-size: 100% 100%;
 }
 
 .top_nav{
@@ -241,6 +242,8 @@ h3{
 .item{
   margin-left:1%;
   display: inline-block;
+  
+  position: relative;
 }
 
 .contact_us_back{
@@ -349,7 +352,32 @@ h4{
   background-color: transparent;
   border: 2px solid #000000;
   border-radius: 4px;
-  cursor: pointer
+  cursor: pointer;
+}
+
+
+.item_info{
+  display: none;
+}
+
+.item_info table{
+  border:0;
+  
+}
+
+.option:hover+.item_info{
+  display: block;
+  
+  width:250px;
+  min-height: 200px;
+  position: absolute;
+  //left: 80px;
+  top:30px;
+  
+  
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px dotted #b7b7b7;
+  border-radius: 10px;
 }
 
 .popular_items .btn{
