@@ -22,7 +22,7 @@ body{
 }
 
 .slider{
-  min-height:657px;
+  min-height:530px;
   
   background: url(../img/slider.jpg);
   background-size: 100% 100%;
@@ -79,14 +79,16 @@ h2{
   margin-left:45px;
   
   color:#ffffff;
-  font-size:52px;
-  line-height: 52px;
+  font-size:70px;
+  line-height: 70px;
   font-weight:700;
+  text-transform: uppercase;
 }
 
 .index_page p{
   margin-top:5px;
   margin-bottom: 15px;
+  margin-left: 13%;
   
   font-size:28px;
   line-height: 28px;
@@ -101,7 +103,7 @@ h2{
 }
 
 .index_page a{
-  margin-left: 42%;
+  margin-left: 45%;
   
   text-decoration:none;
   background-color:#000000;
@@ -187,7 +189,7 @@ header::after{
   
   top:500px;
   left:50%;
-  background: url(../img/scrol_icon.png);
+  background: url(../img/scroll_icon_link.png);
   
 }
 
